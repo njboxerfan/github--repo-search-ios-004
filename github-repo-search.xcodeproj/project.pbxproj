@@ -11,6 +11,13 @@
 		1E7AD04113A34475B2E9B738 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F169F9FBBE5C4C5AAF8F0649 /* Images.xcassets */; };
 		2AF42173276164756228ECB1 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A861B6C5257C664A1920CFE0 /* libPods.a */; };
 		6CE536EB026F4A468CF75E26 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 12736DA42EED4049854EBF74 /* main.m */; };
+		A02A53431AB206130051DE04 /* FISConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = A02A53371AB206130051DE04 /* FISConstants.m */; };
+		A02A53441AB206130051DE04 /* FISGithubAPIClient.m in Sources */ = {isa = PBXBuildFile; fileRef = A02A53391AB206130051DE04 /* FISGithubAPIClient.m */; };
+		A02A53451AB206130051DE04 /* FISGithubRepository.m in Sources */ = {isa = PBXBuildFile; fileRef = A02A533B1AB206130051DE04 /* FISGithubRepository.m */; };
+		A02A53461AB206130051DE04 /* FISReposDataStore.m in Sources */ = {isa = PBXBuildFile; fileRef = A02A533D1AB206130051DE04 /* FISReposDataStore.m */; };
+		A02A53471AB206130051DE04 /* FISReposTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A02A533F1AB206130051DE04 /* FISReposTableViewController.m */; };
+		A02A53481AB206130051DE04 /* FISViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A02A53411AB206130051DE04 /* FISViewController.m */; };
+		A02A53491AB206130051DE04 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A02A53421AB206130051DE04 /* Main.storyboard */; };
 		C4A4C2536BC5BC0AD6AF983C /* libPods-unit_tests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FF447839AC4E49A687DCBEEA /* libPods-unit_tests.a */; };
 		F276374702D740EEB9BA6623 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 54BDE3AE0BB34D57A26B4F9F /* Foundation.framework */; };
 /* End PBXBuildFile section */
@@ -35,6 +42,19 @@
 		41B570AC189D4196B243DFB4 /* FISAppDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FISAppDelegate.h; sourceTree = "<group>"; };
 		54BDE3AE0BB34D57A26B4F9F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		5E7DA3916EB12512DF5EBC8A /* Pods-unit_tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-unit_tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-unit_tests/Pods-unit_tests.release.xcconfig"; sourceTree = "<group>"; };
+		A02A53361AB206130051DE04 /* FISConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FISConstants.h; sourceTree = "<group>"; };
+		A02A53371AB206130051DE04 /* FISConstants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FISConstants.m; sourceTree = "<group>"; };
+		A02A53381AB206130051DE04 /* FISGithubAPIClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FISGithubAPIClient.h; sourceTree = "<group>"; };
+		A02A53391AB206130051DE04 /* FISGithubAPIClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FISGithubAPIClient.m; sourceTree = "<group>"; };
+		A02A533A1AB206130051DE04 /* FISGithubRepository.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FISGithubRepository.h; sourceTree = "<group>"; };
+		A02A533B1AB206130051DE04 /* FISGithubRepository.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FISGithubRepository.m; sourceTree = "<group>"; };
+		A02A533C1AB206130051DE04 /* FISReposDataStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FISReposDataStore.h; sourceTree = "<group>"; };
+		A02A533D1AB206130051DE04 /* FISReposDataStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FISReposDataStore.m; sourceTree = "<group>"; };
+		A02A533E1AB206130051DE04 /* FISReposTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FISReposTableViewController.h; sourceTree = "<group>"; };
+		A02A533F1AB206130051DE04 /* FISReposTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FISReposTableViewController.m; sourceTree = "<group>"; };
+		A02A53401AB206130051DE04 /* FISViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FISViewController.h; sourceTree = "<group>"; };
+		A02A53411AB206130051DE04 /* FISViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FISViewController.m; sourceTree = "<group>"; };
+		A02A53421AB206130051DE04 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		A861B6C5257C664A1920CFE0 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		AA78C40F648B43709145822D /* UnitTests-Prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UnitTests-Prefix.pch"; sourceTree = "<group>"; };
 		B0DBC38EA665B721FE268310 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
@@ -98,6 +118,19 @@
 			children = (
 				41B570AC189D4196B243DFB4 /* FISAppDelegate.h */,
 				27DF75B723D846B98D488A85 /* FISAppDelegate.m */,
+				A02A53361AB206130051DE04 /* FISConstants.h */,
+				A02A53371AB206130051DE04 /* FISConstants.m */,
+				A02A53381AB206130051DE04 /* FISGithubAPIClient.h */,
+				A02A53391AB206130051DE04 /* FISGithubAPIClient.m */,
+				A02A533A1AB206130051DE04 /* FISGithubRepository.h */,
+				A02A533B1AB206130051DE04 /* FISGithubRepository.m */,
+				A02A533C1AB206130051DE04 /* FISReposDataStore.h */,
+				A02A533D1AB206130051DE04 /* FISReposDataStore.m */,
+				A02A533E1AB206130051DE04 /* FISReposTableViewController.h */,
+				A02A533F1AB206130051DE04 /* FISReposTableViewController.m */,
+				A02A53401AB206130051DE04 /* FISViewController.h */,
+				A02A53411AB206130051DE04 /* FISViewController.m */,
+				A02A53421AB206130051DE04 /* Main.storyboard */,
 				8A96D8E09E584A43B6C9B6A1 /* Resources */,
 			);
 			path = "github-repo-search";
@@ -249,6 +282,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1E7AD04113A34475B2E9B738 /* Images.xcassets in Resources */,
+				A02A53491AB206130051DE04 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -344,7 +378,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				1DF9356D6C4D4D5E87AC8F8B /* FISAppDelegate.m in Sources */,
+				A02A53441AB206130051DE04 /* FISGithubAPIClient.m in Sources */,
 				6CE536EB026F4A468CF75E26 /* main.m in Sources */,
+				A02A53451AB206130051DE04 /* FISGithubRepository.m in Sources */,
+				A02A53461AB206130051DE04 /* FISReposDataStore.m in Sources */,
+				A02A53471AB206130051DE04 /* FISReposTableViewController.m in Sources */,
+				A02A53431AB206130051DE04 /* FISConstants.m in Sources */,
+				A02A53481AB206130051DE04 /* FISViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
